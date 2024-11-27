@@ -1,0 +1,16 @@
+name: CI/CD Symfony
+on: workflow_dispatch 
+jobs: 
+  print: 
+   runs-on: ubuntu-latest
+   steps: 
+    - name: Print to console
+      run: echo Hello Github actions!
+    - name: Print a few lines to console
+      run: |
+        echo First Line!
+        echo Second Line!
+      
+      
+  
+ 
