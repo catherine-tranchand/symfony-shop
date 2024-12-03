@@ -19,9 +19,5 @@ return [
     Symfony\UX\Chartjs\ChartjsBundle::class => ['all' => true],
     Nelmio\CorsBundle\NelmioCorsBundle::class => ['all' => true],
     ApiPlatform\Symfony\Bundle\ApiPlatformBundle::class => ['all' => true],
-<<<<<<< HEAD
     KnpU\OAuth2ClientBundle\KnpUOAuth2ClientBundle::class => ['all' => true],
-=======
-    Symfony\UX\TwigComponent\TwigComponentBundle::class => ['all' => true],
->>>>>>> 0a30159 (added Dockerfile)
 ];
